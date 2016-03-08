@@ -7,6 +7,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chavp.Accounting.Test", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chavp.Accounting", "Chavp.Accounting\Chavp.Accounting.csproj", "{6D99E841-63AA-4BB0-9CC7-2AF2B358CDD4}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "material-ui", "..\material-ui\", "{3D27075A-35FF-4344-AE17-B5114E70C6EE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50927"
+		Debug.AspNetCompiler.PhysicalPath = "..\material-ui\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50927\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50927"
+		Release.AspNetCompiler.PhysicalPath = "..\material-ui\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50927\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50927"
+		SlnRelativePath = "..\material-ui\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chavp.Accounting.Web", "Chavp.Accounting.Web\Chavp.Accounting.Web.csproj", "{7295CAE1-8AE8-4927-810A-47D56C11636C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +44,14 @@ Global
 		{6D99E841-63AA-4BB0-9CC7-2AF2B358CDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D99E841-63AA-4BB0-9CC7-2AF2B358CDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D99E841-63AA-4BB0-9CC7-2AF2B358CDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D27075A-35FF-4344-AE17-B5114E70C6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D27075A-35FF-4344-AE17-B5114E70C6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D27075A-35FF-4344-AE17-B5114E70C6EE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D27075A-35FF-4344-AE17-B5114E70C6EE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7295CAE1-8AE8-4927-810A-47D56C11636C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7295CAE1-8AE8-4927-810A-47D56C11636C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7295CAE1-8AE8-4927-810A-47D56C11636C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7295CAE1-8AE8-4927-810A-47D56C11636C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

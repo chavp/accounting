@@ -50,8 +50,8 @@ namespace Chavp.Accounting.Test
             result.Name = "Ding2";
 
             var update = Builders<Member>.Update
-    .Set("Name", "Ding2")
-    .CurrentDate("LastModified");
+                .Set("Name", "Ding2")
+                .CurrentDate("LastModified");
 
             collection.UpdateOne(filter, update);
 
